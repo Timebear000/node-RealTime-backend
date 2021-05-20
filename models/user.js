@@ -15,7 +15,7 @@ const UserSchema = Schema({
     require: true,
   },
   online: {
-    type: String,
+    type: Boolean,
     default: false,
   },
 });
